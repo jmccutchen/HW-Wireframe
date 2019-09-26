@@ -30,7 +30,7 @@ p {
 }
 
 section {
-    width: 495px;
+    width: 480px;
     float: left;
     padding: 20px;
     margin-left: 145px;
@@ -38,10 +38,12 @@ section {
 
 aside {
     float: left;
-}
-
-footer {
-    clear: both;
+    margin-left: 10px;
+    margin-right: 96px;
+    padding: 20px 217px 202px 200px;
+    position: absolute;
+    left: 680px;
+   
 }
 
 #article {
@@ -64,12 +66,17 @@ footer {
 }
 
 footer {
+    clear: both;
     width: 960px;
     margin-left: 15%;
     margin-right: 10%;
     margin-top: 10px;
     margin-bottom: 10px;
     padding: 20px;
+    position: relative;
+    top: 10px;
 }
+
+
 
 
